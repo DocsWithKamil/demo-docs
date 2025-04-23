@@ -1,0 +1,15 @@
+{
+    "name": "MkDocs Dev",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "pip install mkdocs-material",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["ms-python.python"]
+      }
+    },
+    "forwardPorts": [8000]
+  }
+  
